@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  background-color: #0f1111;
+  color: white;
+}
+
+.btns-cont {
+  /* Container of Buttons[box] */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  /* Buttons[box] of Container */
+  width: 8rem;
+  height: 8rem;
+  margin: 1rem;
+  border: 5px solid black;
+  border-radius: 50%;
+  background-color: rgb(64, 79, 79);
+}
+
+.red {
+  /* Buttons[box] 1  */
+  background-color: #d95980;
+}
+
+.yellow {
+  /* Buttons[box] 2  */
+  background-color: #f99b45;
+}
+
+.green {
+  /* Buttons[box] 3  */
+  background-color: #63aac0;
+}
+
+.purple {
+  /* Buttons[box] 4  */
+  background-color: #819ff9;
+}
+
+.pcFlash {
+  /* Flashing by PC  */
+  background-color: white;
+}
+
+.uFlash {
+  /* Flashing by User  */
+  background-color: #07f4a9;
+}
+
+.alert {
+  /* Game over effect */
+  background-color: red;
+}
+
+.sbtn {
+  /* game :start btn */
+  margin: 1rem;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 50%;
+  text-align: center;
+  background-color: black;
+  color: grey;
+  border: 1px solid rgb(28, 27, 27);
+}
+
+.hide {
+  display: none;
+}
+
+.uline {
+  text-decoration: line-through;
+}
+
+.ppb {
+  border: 1px solid rgb(28, 27, 27);
+  font-weight: 500;
+  border-radius: 50%;
+  text-align: center;
+  background-color: black;
+  color: grey;
+  width: 7rem;
+  height: 3rem;
+}
+
+@media (max-width: 600px) {
+  .btn {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .sbtn {
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
